@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{1E769B81-065F-4B7D-89F8-55EF8EFE975C}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>FizzBuzz</RootNamespace>
+    <RootNamespace>FizzBuzzProgram</RootNamespace>
     <AssemblyName>FizzBuzz</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="models\FizzBuzz.cs" />
+    <Compile Include="models\ErrorLogger.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
